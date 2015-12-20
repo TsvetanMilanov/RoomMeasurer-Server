@@ -5,7 +5,7 @@ let express = require('express'),
     passportConfig = require('./server/config/passport-config'),
     routeConfig = require('./server/config/routes'),
     app = express(),
-    port = 4004;
+    port = process.env.PORT || 3030;
 
 mongooseConfig.configure();
 passportConfig.configure();
