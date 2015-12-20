@@ -15,7 +15,8 @@ module.exports = function() {
         },
         Geometry: {
             Distances: [Number],
-            Yaws: [Number]
+            Yaws: [Number],
+            ActualWallsSizes: [Number]
         },
         Author: {
             type: String
